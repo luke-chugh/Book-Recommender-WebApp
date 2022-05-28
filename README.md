@@ -37,3 +37,7 @@ Training word2vec algorithm from scratch is an computationally expensive and als
 
 So, Convert the book descriptions into a numeric vector and find the similarity between these vectors to recommend the book. I have used **euclidean distance** for finding similarity..
 
+____________
+### Author
+[Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)
+
