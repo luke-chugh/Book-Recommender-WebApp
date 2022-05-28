@@ -12,7 +12,7 @@ A content-based recommendation system recommends items to a user by taking simil
 Let's have a look on my web application which gives book recommendation based on user favourite book. 
 In the dropdown list of web app, there were around 4000 books and user has to select one book title from a list of 4000 books, then recommender system list top 5 similar books.
 
-# Below are the screenshot of my web app:
+# Below are the screenshots of my web app:
 
 ![Capture](https://user-images.githubusercontent.com/63462922/143883296-7b024024-3de8-4a09-8fd4-bab830e72cd6.PNG)
 
