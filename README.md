@@ -7,12 +7,12 @@ Content-based and Collaborative based are the two popular recommendation systems
 
 A content-based recommendation system recommends items to a user by taking similarity of items. This recommender system recommends products or items based on the description or features.
 
-## Demo:
+# Demo:
 
 Let's have a look on my web application which gives book recommendation based on user favourite book. 
 In the dropdown list of web app, there were around 4000 books and user has to select one book title from a list of 4000 books, then recommender system list top 5 similar books.
 
-## Below is the screenshot of my web app:
+# Below is the screenshot of my web app:
 
 ![Capture](https://user-images.githubusercontent.com/63462922/143883296-7b024024-3de8-4a09-8fd4-bab830e72cd6.PNG)
 
@@ -37,6 +37,6 @@ Training word2vec algorithm from scratch is an computationally expensive and als
 So, Convert the book descriptions into a numeric vector and find the similarity between these vectors to recommend the book. I have used **euclidean distance** for finding similarity..
 
 ____________
-### Author
+# Author
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)
 
