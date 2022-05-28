@@ -1,4 +1,4 @@
-# Recommender-System
+# Recommender-System: [Application link](https://share.streamlit.io/luke-chugh/book-recommender-webapp/main/app.py)
 Book Recommendation Using **Word2vec algorithm**
 
 Content-based and Collaborative based are the two popular recommendation systems. In this project, I have applied content based recommender system.
@@ -9,7 +9,7 @@ A content-based recommendation system recommends items to a user by taking simil
 
 ## Demo:
 
-Let's have a look on my web application which gives book recommendation based on user favourite book. [Application link](https://share.streamlit.io/luke-chugh/book-recommender-webapp/main/app.py)
+Let's have a look on my web application which gives book recommendation based on user favourite book. 
 
 In the dropdown list of web app, there were around 4000 books and user has to select one book title from a list of 4000 books, then recommender system list top 5 similar books.
 
