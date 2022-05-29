@@ -15,13 +15,11 @@ Content-based and Collaborative based are the two popular recommendation systems
 
 This project utilized goodreads scraped [dataset](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks) which contains around 4000 book titles, author name and description of each book and author.
 
-After text preprocessing, the main thing is to convert each book descriptions into numerical vectors. For this we have used 3 method such as **Bag-of-words model, TF-IDF model, Word2vec algorithm**. From the above method, Word2vec model was an best one.
+The main thing was to convert each book descriptions into numerical vectors. For this processing techniques such as **Bag-of-words model, TF-IDF model and Word2vec algorithm** were used. **Word2vec** (neural network based) model which uses **semantic meaning of words** proved out to be the best one for this use case.
 
-Word2vec is an neural network model uses **semantic meaning of words**. Word2vec understand the semantic meaning of each words in the book description feature very well than the other two models such as bag of words and tf-idf. 
+Training word2vec algorithm from scratch is computationally expensive and also needs humonguous data. Since the dataset was not big enough, **Google's pretrained word2vec neural network** was implemented for this project. 
 
-Training word2vec algorithm from scratch is an computationally expensive and also need humonguous data. As i have less data, so i have used **Google pretrained word2vec neural network** for this project. 
-
-So, Convert the book descriptions into a numeric vector and find the similarity between these vectors to recommend the book. I have used **euclidean distance** for finding similarity..
+After converting the book descriptions into numeric vectors I used **euclidean distance** for finding similarity. The top 5 books whos description had the closest euclidean distance with the book selected by the user on the WebApp was shown as recommendations.
 
 # Installation
 To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
