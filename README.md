@@ -1,5 +1,5 @@
 # Book Recommender System: [[WebApp link]](https://share.streamlit.io/luke-chugh/book-recommender-webapp/main/app.py)
-Book Recommendation Using **Word2vec + Euclidean distance*
+Book Recommendation Using **Word2vec + Euclidean distance**
 
 Content-based and Collaborative based are the two popular recommendation systems. This project is content based recommender system where user has to select one book title from a list of 4000 books, then recommender system lists top 5 similar books based on the description or features.
 
