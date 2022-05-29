@@ -36,10 +36,10 @@ Training word2vec algorithm from scratch is an computationally expensive and als
 
 So, Convert the book descriptions into a numeric vector and find the similarity between these vectors to recommend the book. I have used **euclidean distance** for finding similarity..
 
+# Installation
+To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
 ```
-
 # Author
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)
-
