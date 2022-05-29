@@ -13,7 +13,7 @@ Content-based and Collaborative based are the two popular recommendation systems
 
 # About this project:
 
-This project, I have used goodreads scraped dataset which contains around 4000 book titles, author name and description of each book and author.
+This project utilized goodreads scraped [dataset](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks) which contains around 4000 book titles, author name and description of each book and author.
 
 After text preprocessing, the main thing is to convert each book descriptions into numerical vectors. For this we have used 3 method such as **Bag-of-words model, TF-IDF model, Word2vec algorithm**. From the above method, Word2vec model was an best one.
 
