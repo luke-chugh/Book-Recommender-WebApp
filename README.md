@@ -1,7 +1,7 @@
 # Book Recommender System: [[WebApp link]](https://share.streamlit.io/luke-chugh/book-recommender-webapp/main/app.py)
 ![](https://img.shields.io/badge/python-3.10.4-blueviolet)
 ![](https://img.shields.io/badge/matplotlib-3.1.2-%23ff007f)
-![](https://img.shields.io/badge/Scikit--Learn-0.24.1-blue)
+![](https://img.shields.io/badge/scikit--learn-0.24.1-blue)
 ![](https://img.shields.io/badge/streamlit-1.9.1-brightgreen)
 
 Content-based and Collaborative based are the two popular recommendation systems. This project is content based recommender system where user has to select one book title from a list of 4000 books, then recommender system lists top 5 similar books based on the description or features.
