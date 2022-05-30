@@ -21,7 +21,7 @@ Training word2vec algorithm from scratch is computationally expensive and also n
 
 After converting the book descriptions into numeric vectors I used **euclidean distance** for finding similarity. The top 5 books whos description had the closest euclidean distance with the book selected by the user on the WebApp was shown as recommendations.
 
-# Installation
+# Installation:
 To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
@@ -30,5 +30,5 @@ To run this app in your local machine open a command prompt or terminal in the c
 ```bash
 streamlit run app.py
 ```
-# Author
+# Author:
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)
