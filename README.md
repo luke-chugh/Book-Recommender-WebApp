@@ -15,7 +15,7 @@ Content-based and Collaborative based are the two popular recommendation systems
 
 This project utilized goodreads scraped [dataset](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks) which contains around 4000 book titles, author name and description of each book and author.
 
-The main thing was to convert each book descriptions into numerical vectors. For this processing techniques such as **Bag-of-words model, TF-IDF model and Word2vec algorithm** were used. **Word2vec** (neural network based) model which uses **semantic meaning of words** proved out to be the best one for this use case.
+The main task was to convert each book's description into numerical vectors. For this, processing techniques such as **Bag-of-words model, TF-IDF model and Word2vec algorithm** were used. **Word2vec** (neural network based) model which uses **semantic meaning of words** proved out to be the best one for this use case.
 
 Training word2vec algorithm from scratch is computationally expensive and also needs humonguous data. Since this dataset was not big enough, **Google's pretrained word2vec neural network** was implemented for this project. 
 
