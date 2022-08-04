@@ -1,5 +1,5 @@
 # Book Recommender System: [[WebApp Link]](https://share.streamlit.io/luke-chugh/book-recommender-webapp/main/app.py)
-![](https://img.shields.io/badge/python-3.10.4-blueviolet)
+![](https://img.shields.io/badge/python-3.7-blueviolet)
 ![](https://img.shields.io/badge/matplotlib-3.1.2-%23ff007f)
 ![](https://img.shields.io/badge/scikit--learn-0.24.1-blue)
 ![](https://img.shields.io/badge/streamlit-1.9.1-brightgreen)
